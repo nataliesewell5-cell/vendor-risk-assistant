@@ -127,7 +127,7 @@ The baseline produced a correct High rating but in an unstructured narrative for
 **Installation:**
 
 ```bash
-git clone https://github.com/YOURUSERNAME/vendor-risk-assistant.git
+git clone https://github.com/nataliesewell5-cell/vendor-risk-assistant.git
 cd vendor-risk-assistant
 pip3 install -r requirements.txt
 ```
@@ -145,6 +145,7 @@ Do not commit this file. It is listed in `.gitignore`.
 ```bash
 python3 -m streamlit run app.py
 ```
+> **Note for Mac users:** If `streamlit run app.py` gives a "command not found" error, use `python3 -m streamlit run app.py` instead.
 
 **Run the baseline app (for comparison):**
 ```bash
