@@ -1,6 +1,6 @@
 # Vendor Risk Summary Assistant
 
-An AI-powered Streamlit app that helps Third-Party Risk Management (TPRM) analysts evaluate vendor risk and produce structured risk summaries.
+A Streamlit app that helps Third-Party Risk Management (TPRM) analysts evaluate vendor risk and produce structured risk summaries.
 
 ---
 
@@ -115,6 +115,14 @@ CloudPay Inc. is assigned HIGH RISK due to multiple simultaneous high-risk facto
 
 **Baseline output for the same input:**
 The baseline produced a correct High rating but in an unstructured narrative format with no disclaimer, no controls section, and a different structure every time.
+
+## Screenshots of the App:
+
+**User will see the below screen upon loading the app**
+<img width="1308" height="713" alt="Screenshot 2026-05-13 at 5 34 49 AM" src="https://github.com/user-attachments/assets/294d8c47-9021-4641-8e8d-6d1617a49beb" />
+
+**After user enters vendor information and clicks Analyze Risk** 
+<img width="1615" height="896" alt="Final Project" src="https://github.com/user-attachments/assets/0a8f7cfa-6cf7-4468-967b-db3020d87890" />
 
 ---
 
