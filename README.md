@@ -165,7 +165,7 @@ python3 -m streamlit run baseline_app.py --server.port 8502
 
 The app will open automatically in your browser at `http://localhost:8501`.
 
-Paste vendor due diligence information into the text area and click **Analyze Risk** to generate a structured risk summary.
+Paste vendor due diligence information into the text area and click **Analyze Risk** to generate a structured risk summary (you can use one of the test scenarios listed below when running the app). 
 
 ---
 
@@ -186,4 +186,39 @@ Paste vendor due diligence information into the text area and click **Analyze Ri
 All outputs from this application are advisory only. Results must be reviewed by a qualified risk analyst before use in any risk decision or regulatory determination. This tool is intended to support analyst judgment, not replace it.
 
 
+## Test Scenarios 
+Scenario 1 — Clear High Risk
+CloudPay Inc. provides payroll processing services and handles sensitive employee PII including SSNs and bank account information. The vendor does not hold a SOC2 certification and stores data on servers located outside the US. They have privileged access to internal HR systems.
 
+Scenario 2 — Clear Low Risk
+BrightSign Co. provides digital signage software used only on lobby displays. The software does not connect to any internal systems and does not collect or store any company or employee data. The vendor holds a current SOC2 Type II certification.
+
+Scenario 3 — Clear Medium Risk
+MarketReach LLC provides email marketing services. They have access to a customer mailing list containing names and email addresses but no financial or health data. They hold a SOC2 Type I certification but not Type II. Data is stored in the US.
+
+Scenario 4 — IT Vendor with Privileged Access
+TechOps Partners provides managed IT support and has administrative access to internal servers and network infrastructure. They are based offshore in Eastern Europe. They have no current security certifications on file.
+
+Scenario 5 — Strong Certifications
+SecureCloud Inc. provides a SaaS document management platform. They hold SOC1 Type II, SOC2 Type II, and ISO 27001 certifications. Access is read-only and limited to non-sensitive internal documents. Data is stored in US-based data centers.
+
+Scenario 6 — Incomplete Information
+ABC Consulting provides various technology services to the organization. They handle some data as part of their engagement.
+
+Scenario 7 — Healthcare Data
+MedRecord Systems provides electronic health record storage for employee health plan data including diagnoses, medications, and treatment history. They are HIPAA certified and store all data in the US. Access is limited to HR benefits administrators.
+
+Scenario 8 — Fintech Vendor
+PayStream Inc. processes corporate credit card transactions and expense reports. They are PCI-DSS certified and SOC2 Type II certified. Data is stored in the US and access is limited to the finance team only.
+
+Scenario 9 — Contradictory Information
+DataVault LLC claims to have strong security controls and says client data is fully protected. However, they have no certifications on file and their last security audit was conducted internally three years ago. They handle employee financial reimbursement data.
+
+Scenario 10 — Multiple Red Flags
+GlobalTech Solutions provides cloud-based HR management including payroll, benefits, and performance data. They store data in multiple countries including some with weak data protection laws. They have no SOC2, no ISO 27001, and their contract does not include breach notification requirements. They have full administrative access to internal HR systems.
+
+Scenario 11 — One Sentence Only
+Vendor provides software services to the company.
+
+Scenario 12 — Low Risk Internal Tool
+NoteApp Inc. provides a simple internal note-taking tool used by the communications team for drafting press releases. The tool does not integrate with any internal systems, does not store sensitive data, and holds a current SOC2 Type II certification. Data is stored in the US.
