@@ -124,6 +124,9 @@ The baseline produced a correct High rating but in an unstructured narrative for
 **After user enters vendor information and clicks Analyze Risk** 
 <img width="1615" height="896" alt="Final Project" src="https://github.com/user-attachments/assets/0a8f7cfa-6cf7-4468-967b-db3020d87890" />
 
+**The App can accessed at the following link:**
+https://vendor-risk-assistant.streamlit.app
+
 ---
 
 ## Setup and Usage
@@ -181,3 +184,6 @@ Paste vendor due diligence information into the text area and click **Analyze Ri
 ## Disclaimer
 
 All outputs from this application are advisory only. Results must be reviewed by a qualified risk analyst before use in any risk decision or regulatory determination. This tool is intended to support analyst judgment, not replace it.
+
+
+
