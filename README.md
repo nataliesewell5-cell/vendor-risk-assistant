@@ -185,6 +185,8 @@ Paste vendor due diligence information into the text area and click **Analyze Ri
 
 All outputs from this application are advisory only. Results must be reviewed by a qualified risk analyst before use in any risk decision or regulatory determination. This tool is intended to support analyst judgment, not replace it.
 
+## Final Presentation Recording 
+https://youtu.be/RPfWy8IRK_4
 
 ## Test Scenarios 
 Scenario 1 — Clear High Risk
